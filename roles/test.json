@@ -1,0 +1,20 @@
+{
+  "override_attributes": {
+  },
+  "run_list": [
+    "role[amqp]",
+    "role[database]",
+    "role[webserver]",
+    "recipe[ant]",
+    "recipe[vim]",
+    "recipe[sphinx]"
+  ],
+  "env_run_lists": {
+  },
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "name": "test",
+  "description": ""
+}

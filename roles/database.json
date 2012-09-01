@@ -1,0 +1,17 @@
+{
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[mysql::server]",
+    "recipe[redis::install_from_package]",
+    "recipe[mongodb]"
+  ],
+  "name": "database",
+  "env_run_lists": {
+  },
+  "override_attributes": {
+  },
+  "default_attributes": {
+  },
+  "description": ""
+}

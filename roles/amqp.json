@@ -1,0 +1,17 @@
+{
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[apt]",
+    "recipe[yum]",
+    "recipe[rabbitmq]"
+  ],
+  "name": "amqp",
+  "env_run_lists": {
+  },
+  "chef_type": "role",
+  "override_attributes": {
+  },
+  "description": ""
+}
